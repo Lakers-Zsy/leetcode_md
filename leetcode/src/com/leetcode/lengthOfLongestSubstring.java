@@ -3,8 +3,8 @@ package com.leetcode;
 import java.util.HashMap;
 
 public class lengthOfLongestSubstring {
-	
-	 public static int lengthOfLongestSubstring(String s) {
+	//求出无重复字符串中最长子串长度
+	 public static int fun(String s) {
 	        int left=0,max=0;
 	        if(s.length()==0)return 0;
 	         HashMap<Character, Integer> map = new HashMap<Character, Integer>();
